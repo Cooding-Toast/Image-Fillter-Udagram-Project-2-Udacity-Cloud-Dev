@@ -1,7 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import {filterImageFromURL, deleteLocalFiles, isValidImage, isValidUrl} from './util/util';
-import { validateImage }  from 'image-validator';
 
 (async () => {
 
